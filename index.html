@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
-<title>Biology Chapter 8 | Practice Quiz — Mrs. Abney</title>
+<title>Biology Chapter 8.1 | Practice Quiz — Mrs. Abney</title>
 <style>
   :root{color-scheme:light;--navy:#183a59;--blue:#286da1;--teal:#177f81;--pale:#f4f9fc;--white:#fff;--ink:#213247;--muted:#526678;--red:#b73434;--green:#217245;--line:#d9e4ed}
   *{box-sizing:border-box}body{margin:0;background:linear-gradient(160deg,#edf7fa,#f9fbff);color:var(--ink);font-family:system-ui,-apple-system,Segoe UI,Arial,sans-serif;font-size:16px;line-height:1.5}
@@ -25,21 +25,21 @@
 </style>
 </head>
 <body>
-<header><h1>🧬 Biology Chapter 8 Practice</h1><p>8A Cell Division • 8B Inheritance • 8C Gene Expression</p></header>
+<header><h1>🧬 Biology Chapter 8.1 Practice</h1><p>DNA & Chromosomes • Cell Cycle • Mitosis</p></header>
 <main>
 <section id="intro" class="card">
   <span class="pill">Study • Practice • Review Your Results</span>
   <h2>Review these topics before your quiz</h2>
   <div class="grid-3">
-    <div class="stat"><strong>30</strong>questions</div><div class="stat"><strong>15:00</strong>total time</div><div class="stat"><strong>1:00</strong>per question</div>
+    <div class="stat"><strong>20</strong>questions</div><div class="stat"><strong>15:00</strong>total time</div><div class="stat"><strong>1:00</strong>per question</div>
   </div>
-  <p class="muted">Every attempt selects 10 questions each from Chapters 8A, 8B, and 8C. Questions and answer choices are shuffled each time.</p>
+  <p class="muted">Each attempt selects 20 questions from our Chapter 8.1 material only. Questions and answer choices are randomized.</p>
   <div class="grid-3">
-    <section><h3>8A • Cell Division</h3><ul class="review-list"><li>Chromosomes, chromatin, genes, chromatids</li><li>Diploid vs. haploid cells; karyotypes</li><li>Cell cycle: interphase, mitosis, cytokinesis</li><li>Meiosis I and II; crossing over</li></ul></section>
-    <section><h3>8B • Inheritance</h3><ul class="review-list"><li>Mendel's genetic principles</li><li>Alleles, genotype, phenotype</li><li>Monohybrid and dihybrid Punnett squares</li><li>Dominance patterns, pedigrees, sex-linked traits</li></ul></section>
-    <section><h3>8C • Gene Expression</h3><ul class="review-list"><li>Promoters, enhancers, silencers</li><li>Introns, exons, transcription</li><li>Environmental influences on genes</li><li>Cell differentiation and stem cells</li></ul></section>
+    <section><h3>DNA &amp; Chromosomes</h3><ul class="review-list"><li>DNA, genes, histones, chromatin, chromosomes</li><li>Chromatids, centromeres and homologous chromosomes</li><li>Karyotypes, autosomes, haploid and diploid cells</li></ul></section>
+    <section><h3>The Cell Cycle</h3><ul class="review-list"><li>G1, S, and G2 during interphase</li><li>DNA replication</li><li>Cell-cycle checkpoints</li></ul></section>
+    <section><h3>Mitosis</h3><ul class="review-list"><li>Prophase and metaphase</li><li>Anaphase and telophase</li><li>Cytokinesis and growth/repair</li></ul></section>
   </div>
-  <div class="inline-note">Remember: Meiosis creates genetically varied gametes, inherited alleles influence traits, and gene regulation determines which genetic instructions cells use.</div>
+  <div class="inline-note">Only material covered in our Chapter 8.1 lessons is included. No meiosis, inheritance, Punnett squares, or gene expression.</div>
   <div class="inline-note"><strong>During the quiz:</strong> One question at a time. Choose one answer and advance. No returning to earlier questions. Questions auto-skip after 60 seconds. When finished, you'll see only which questions you missed and your own responses—not the answer key.</div>
 </section>
 <section id="entry" class="card">
@@ -56,7 +56,7 @@
 <section id="loading" class="card" hidden><h2>Opening your quiz…</h2><p id="loading-message">Connecting securely to the quiz.</p><p class="small muted">Please keep this tab open.</p></section>
 <section id="quiz" class="card" hidden>
   <div class="grid"><div id="overall-timer" class="timer">Total time <strong>15:00</strong></div><div id="item-timer" class="timer">This question <strong>1:00</strong></div></div>
-  <p id="progress-text"><strong>Question 1 of 30</strong></p><div class="progress-bar"><div id="progress-fill" class="progress-fill" style="width:3.3%"></div></div>
+  <p id="progress-text"><strong>Question 1 of 20</strong></p><div class="progress-bar"><div id="progress-fill" class="progress-fill" style="width:5%"></div></div>
   <p id="topic-pill" class="pill">Chapter 8</p>
   <div id="question-box" class="question-box" oncopy="return false" oncontextmenu="return false"><h3 id="question-text"></h3><div id="choices"></div></div>
   <p class="small muted">Select an answer to continue immediately. This question will be skipped automatically when its 60-second limit expires.</p>
@@ -64,14 +64,14 @@
 </section>
 <section id="results" class="card" hidden><h2>Your practice results</h2><p id="results-score"></p><p id="results-note" class="inline-note">Look up the questions you missed in your notes or textbook. The correct answers are not displayed.</p><div id="missed-list"></div><button id="retry" type="button" class="secondary">Try a New Randomized Attempt</button></section>
 <section id="alert" class="card" hidden><h2>Something needs attention</h2><p id="alert-text" class="error"></p><button type="button" id="reset">Return to quiz start</button></section>
-<footer>Mrs. Abney • Biology Chapter 8 • Results recorded in the teacher's Google Sheet when server submission succeeds.</footer>
+<footer>Mrs. Abney • Biology Chapter 8.1 • Results recorded in the teacher's Google Sheet when server submission succeeds.</footer>
 </main>
 <iframe name="quiz_submit_frame" title="Background score submission" class="sr-only" style="display:none"></iframe>
 <script>
 'use strict';
 // Google Apps Script scoring endpoint (private answer key stays in Apps Script).
 const ENDPOINT = 'https://script.google.com/macros/s/AKfycbwxeaZCdptam_X1FT1UyN-lvCYZZwpBE82I5ihuThp2Oy15AiisUq5OEvEsk-com_Yo/exec';
-const KEY = 'abney_ch8_active_attempt';
+const KEY = 'abney_ch81_active_attempt_v2';
 const $ = id => document.getElementById(id);
 let attemptId='', current=null, busy=false, qDeadline=0, totalDeadline=0, timerId=null;
 const sections=['intro','entry','loading','quiz','results','alert'];
@@ -158,7 +158,7 @@ function showResults(data){
     const p=document.createElement('p');p.textContent=m.question;
     const a=document.createElement('p');a.textContent=`Your answer: ${m.yourAnswer}${m.timedOut?' (timed out)':''}`;
     box.append(h,p,a);list.appendChild(box)});
-  if(data.missed.length===0){const p=document.createElement('p');p.textContent='Excellent! You answered all 30 correctly.';list.appendChild(p)}
+  if(data.missed.length===0){const p=document.createElement('p');p.textContent='Excellent! You answered all 20 correctly.';list.appendChild(p)}
 }
 function showError(message){stopTimers();show('alert');$('alert-text').textContent=message}
 async function startQuiz(e){
@@ -181,8 +181,8 @@ $('start-form').addEventListener('submit',startQuiz);$('retry').addEventListener
     $('window-note').textContent='Teacher setup not finished yet. The Google Apps Script link needs to be connected.';
     $('start-button').disabled=true;return;
   }
-  try{const s=await jsonp('status');$('start-button').disabled=false;$('window-note').textContent=s.open?`Practice quiz is OPEN. Regular access: ${s.openDate} through ${s.closeDate}, Eastern Time.`:`Regular quiz window: ${s.openDate}–${s.closeDate} (Eastern). Outside these dates, use your teacher's makeup code.`}
-  catch(e){$('window-note').textContent='The quiz connection is not ready: '+e.message;$('start-button').disabled=true;}
+  try{const s=await jsonp('status');if(!s.ok)throw new Error(s.error||'Service unavailable');$('start-button').disabled=false;$('window-note').textContent=s.open?`Practice quiz is OPEN. Regular access: ${s.openDate} through ${s.closeDate}, Eastern Time.`:`Regular quiz window: ${s.openDate}–${s.closeDate} (Eastern). Outside these dates, use your teacher's makeup code.`}
+  catch(e){$('window-note').textContent='The quiz connection is not ready: '+e.message+' Try a private window or disable browser blockers; if that works, clear this site’s stored data. Confirm the Web App URL matches your latest deployment.';$('start-button').disabled=true;}
   const saved=localStorage.getItem(KEY);
   if(saved){attemptId=saved;busy=true;show('loading');$('loading-message').textContent='Restoring your current attempt…';
     try{const data=await jsonp('resume',{attemptId});if(!data.ok)throw new Error(data.error);if(data.done)showResults(data);else renderQuestion(data.question)}
