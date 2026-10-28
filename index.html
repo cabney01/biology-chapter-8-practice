@@ -12,9 +12,7 @@
   main{max-width:900px;margin:24px auto 55px;padding:0 15px}.card{background:#fff;border:1px solid var(--line);border-radius:17px;padding:23px;margin-bottom:18px;box-shadow:0 5px 24px #173b5a0d}.card h2{margin:0 0 10px;font-size:1.35rem;color:var(--navy)}
   .pill{display:inline-block;background:#e2f1f6;color:#145a77;border-radius:30px;padding:5px 11px;font-weight:700;font-size:.84rem}.grid{display:grid;grid-template-columns:1fr 1fr;gap:13px}.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
   .stat{background:#edf7fc;border:1px solid #d3e7f0;border-radius:10px;padding:10px;text-align:center}.stat strong{display:block;font-size:1.4rem;color:var(--navy)}.muted{color:var(--muted)}
-  textarea{width:100%;min-height:125px;resize:vertical;padding:13px;border:1px solid #99acb9;border-radius:9px;font:inherit;line-height:1.5}textarea:focus{outline:3px solid #73bae1;outline-offset:2px}.video-lesson{border:1px solid #d8e6ef;background:#f7fbfd;border-radius:14px;padding:16px;margin:19px 0}.review-progress{height:13px;background:#dce6ee;border-radius:12px;overflow:hidden;margin:8px 0}.review-progress>div{height:100%;background:#26889c;transition:width .3s}.video-status{font-size:.9rem;font-weight:650;color:#255777}.review-status{font-size:.95rem}.unlock-done{border:1px solid #8ab9a0;background:#e9f7ef;color:#205e3a;padding:10px 13px;border-radius:9px;margin:10px 0}label{font-weight:650;display:block;margin:9px 0 5px}input,select{width:100%;padding:12px;border:1px solid #99acb9;border-radius:9px;font:inherit}input:focus,select:focus,button:focus-visible{outline:3px solid #73bae1;outline-offset:2px}
   button{cursor:pointer;border:0;border-radius:10px;font:700 1rem system-ui;padding:13px 20px;background:var(--blue);color:white}button:hover{filter:brightness(1.07)}button:disabled{opacity:.57;cursor:wait}.secondary{background:#e6f2f7;color:var(--navy)}
-  #player8a iframe,#player8b iframe,#player8c iframe{width:100%;max-width:790px;aspect-ratio:16/9;border:0;border-radius:13px;background:#e9edf2}.video-wrap{text-align:center}.small{font-size:.88rem}.review-list{padding-left:20px}.review-list li{margin:7px 0}
   .inline-note{border-left:4px solid #6bafc6;background:#edf7fb;padding:10px 14px;border-radius:7px;margin:13px 0}
   .error{background:#fff0ed;border:1px solid #e7afa7;padding:12px 15px;border-radius:10px;color:#902f2e}
   .question-box{margin-top:20px;border:1px solid #c3dce9;background:#f5fbfe;padding:19px;border-radius:14px;user-select:none;-webkit-user-select:none}.question-box h3{font-size:1.34rem;line-height:1.35;margin:0 0 20px}
@@ -23,15 +21,15 @@
   .progress-bar{width:100%;height:13px;border-radius:20px;overflow:hidden;background:#e2ebf0;margin:8px 0 14px}.progress-fill{height:100%;background:linear-gradient(90deg,#26889c,#2d6ea6);transition:width .3s}
   .missed{border:1px solid #e0e5e8;background:#fafcfc;border-radius:10px;padding:13px;margin:9px 0}.missed strong{color:#a13b36}.sr-only{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
   footer{text-align:center;color:#698092;margin:28px auto;font-size:.85rem}@media(max-width:620px){.grid,.grid-3{grid-template-columns:1fr}.card{padding:17px}.question-box{padding:14px}}
-  @media print{.question-box,.choice,.video-wrap{display:none!important}}
+  @media print{.question-box,.choice{display:none!important}}
 </style>
 </head>
 <body>
 <header><h1>🧬 Biology Chapter 8 Practice</h1><p>8A Cell Division • 8B Inheritance • 8C Gene Expression</p></header>
 <main>
 <section id="intro" class="card">
-  <span class="pill">Study • Required videos • Reflect • Practice</span>
-  <h2>Review before your quiz</h2>
+  <span class="pill">Study • Practice • Review Your Results</span>
+  <h2>Review these topics before your quiz</h2>
   <div class="grid-3">
     <div class="stat"><strong>30</strong>questions</div><div class="stat"><strong>15:00</strong>total time</div><div class="stat"><strong>0:30</strong>per question</div>
   </div>
@@ -42,36 +40,6 @@
     <section><h3>8C • Gene Expression</h3><ul class="review-list"><li>Promoters, enhancers, silencers</li><li>Introns, exons, transcription</li><li>Environmental influences on genes</li><li>Cell differentiation and stem cells</li></ul></section>
   </div>
   <div class="inline-note">Remember: Meiosis creates genetically varied gametes, inherited alleles influence traits, and gene regulation determines which genetic instructions cells use.</div>
-  <h3>Required video review — complete all three before the quiz</h3>
-  <p class="small muted">Watch at least 85% of each video <strong>inside this page</strong> and write a reflection of 25 or more words for each. The 15-minute quiz timer begins only after you save all three reflections and click Start Quiz. Skipping ahead does not count as watched time.</p>
-  <section class="video-lesson" aria-labelledby="video-title-8a">
-    <h3 id="video-title-8a">Video 1 • 8A Cell Division</h3>
-    <div class="video-wrap"><div id="player8a" aria-label="Amoeba Sisters mitosis and meiosis video"></div></div>
-    <div class="review-progress" role="progressbar" aria-label="8A Cell Division video watched" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="progress-wrap-8a"><div id="progress-8a" style="width:0%"></div></div>
-    <p id="watch-8a" class="video-status">Waiting for video player…</p>
-    <label for="reflection-8a">In at least 25 words: Compare mitosis and meiosis: what happens to chromosome number, and why is each type of division important?</label>
-    <textarea id="reflection-8a" maxlength="2000" placeholder="Write in your own words, using your notes and the video."></textarea>
-    <p id="count-8a" class="small muted">0 / 25 words</p>
-  </section>
-  <section class="video-lesson" aria-labelledby="video-title-8b">
-    <h3 id="video-title-8b">Video 2 • 8B Inheritance of Traits</h3>
-    <div class="video-wrap"><div id="player8b" aria-label="Amoeba Sisters alleles and Mendelian inheritance video"></div></div>
-    <div class="review-progress" role="progressbar" aria-label="8B Inheritance of Traits video watched" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="progress-wrap-8b"><div id="progress-8b" style="width:0%"></div></div>
-    <p id="watch-8b" class="video-status">Waiting for video player…</p>
-    <label for="reflection-8b">In at least 25 words: Describe how alleles determine possible genotypes and phenotypes, and explain how a Punnett square can be used.</label>
-    <textarea id="reflection-8b" maxlength="2000" placeholder="Write in your own words, using your notes and the video."></textarea>
-    <p id="count-8b" class="small muted">0 / 25 words</p>
-  </section>
-  <section class="video-lesson" aria-labelledby="video-title-8c">
-    <h3 id="video-title-8c">Video 3 • 8C Gene Expression</h3>
-    <div class="video-wrap"><div id="player8c" aria-label="Amoeba Sisters gene expression and regulation video"></div></div>
-    <div class="review-progress" role="progressbar" aria-label="8C Gene Expression video watched" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="progress-wrap-8c"><div id="progress-8c" style="width:0%"></div></div>
-    <p id="watch-8c" class="video-status">Waiting for video player…</p>
-    <label for="reflection-8c">In at least 25 words: Explain why cells with the same DNA can have different functions, and describe one way genes can be regulated.</label>
-    <textarea id="reflection-8c" maxlength="2000" placeholder="Write in your own words, using your notes and the video."></textarea>
-    <p id="count-8c" class="small muted">0 / 25 words</p>
-  </section>
-  <p class="small muted">If a video is blocked or its playback cannot be tracked on your device, tell Mrs. Abney. Do not submit a blank reflection. These reflections are stored for teacher review.</p>
   <div class="inline-note"><strong>During the quiz:</strong> One question at a time. Choose one answer and advance. No returning to earlier questions. Questions auto-skip after 30 seconds. When finished, you'll see only which questions you missed and your own responses—not the answer key.</div>
 </section>
 <section id="entry" class="card">
@@ -82,9 +50,6 @@
       <div><label for="block">Biology class</label><select id="block" required><option value="">Choose your block</option><option>2nd Block</option><option>4th Block</option></select></div></div>
     <label for="makeup">Makeup code <span class="muted small">(only if your teacher gave you one)</span></label><input id="makeup" autocomplete="off" maxlength="60" placeholder="Leave blank during the normal quiz window">
     <p class="small muted">For your own progress record, enter the name you use in Biology class. The timer cannot be paused or restarted during an attempt.</p>
-    <button id="review-submit" type="button" disabled>Save My Three Video Reflections</button>
-    <p id="review-message" class="review-status muted" role="status">Watch all three videos and write 25 words for each to unlock this step.</p>
-    <div id="unlock-done" class="unlock-done" hidden>✓ All three reflections are saved in your teacher’s Google Sheet. You may begin your quiz.</div>
     <button id="start-button" type="submit" disabled>Start My 15-Minute Quiz</button>
   </form>
 </section>
@@ -107,13 +72,8 @@
 // Google Apps Script scoring endpoint (private answer key stays in Apps Script).
 const ENDPOINT = 'https://script.google.com/macros/s/AKfycbwxeaZCdptam_X1FT1UyN-lvCYZZwpBE82I5ihuThp2Oy15AiisUq5OEvEsk-com_Yo/exec';
 const KEY = 'abney_ch8_active_attempt';
-const REVIEW_KEY = 'abney_ch8_review_saved_v1';
-const VIDEO_PROGRESS_KEY = 'abney_ch8_video_coverage_v2';
-const MIN_WORDS=25, REQUIRED_PERCENT=85;
 const $ = id => document.getElementById(id);
 let attemptId='', current=null, busy=false, qDeadline=0, totalDeadline=0, timerId=null;
-let reviewToken='', reviewName='', reviewBlock='', reviewing=false;
-const watched=Object.fromEntries(['a','b','c'].map(k=>[k,{seconds:new Set(),duration:0,player:null,playing:false,lastTime:null,lastWall:null}]));
 const sections=['intro','entry','loading','quiz','results','alert'];
 const show = target => {sections.forEach(id=>$(id).hidden=(id!==target && !(target==='entry' && id==='intro')));};
 function formatTime(s){s=Math.max(0,Math.ceil(s));return `${Math.floor(s/60)}:${String(s%60).padStart(2,'0')}`;}
@@ -138,125 +98,6 @@ function post(fields){
   document.body.appendChild(form);form.submit();form.remove();
 }
 function sleep(ms){return new Promise(resolve=>setTimeout(resolve,ms));}
-// YouTube's IFrame Player API lets us estimate unique seconds actually played.
-// This is a participation check, not a guarantee of attention or academic honesty.
-function wordCount(text){return (String(text||'').trim().match(/[\p{L}\p{N}]+(?:[’'-][\p{L}\p{N}]+)*/gu)||[]).length;}
-function reviewPct(k){const v=watched[k];return v.duration>0?Math.min(100,Math.floor(v.seconds.size*100/v.duration)):0;}
-function normalizedName(){return $('name').value.trim().replace(/\s+/g,' ').toLowerCase();}
-function saveCoverage(){
-  try{
-    const name=$('name').value.trim().replace(/\s+/g,' '),block=$('block').value;
-    if(!name || !block)return;
-    localStorage.setItem(VIDEO_PROGRESS_KEY,JSON.stringify({name,block,a:[...watched.a.seconds],b:[...watched.b.seconds],c:[...watched.c.seconds]}));
-  }catch(e){}
-}
-function loadCoverage(){
-  try{
-    const d=JSON.parse(localStorage.getItem(VIDEO_PROGRESS_KEY)||'{}');
-    if(!reviewToken && d.name && d.block && !$('name').value && !$('block').value){
-      $('name').value=d.name;$('block').value=d.block;
-    }
-    if(d.name && d.block && normalizedName()===String(d.name).trim().replace(/\s+/g,' ').toLowerCase() && $('block').value===d.block){
-      ['a','b','c'].forEach(k=>{if(Array.isArray(d[k])) watched[k].seconds=new Set(d[k].filter(x=>Number.isInteger(x)&&x>=0&&x<=3600));});
-    }
-  }catch(e){}
-}
-function handleIdentityChange(){
-  // Each student identity must save its OWN review token, even on a shared device.
-  if(reviewToken && !validReviewIdentity()){
-    reviewToken='';reviewName='';reviewBlock='';
-    localStorage.removeItem(REVIEW_KEY);
-    $('unlock-done').hidden=true;
-    $('review-message').textContent='Please complete and save the review under this student name.';
-  }
-  // Never let one student reuse another student's saved video progress.
-  const saved=JSON.parse(localStorage.getItem(VIDEO_PROGRESS_KEY)||'{}');
-  const matches=saved.name && normalizedName()===String(saved.name).trim().replace(/\s+/g,' ').toLowerCase() && $('block').value===saved.block;
-  if(!matches){
-    watched.a.seconds.clear();watched.b.seconds.clear();
-    saveCoverage();
-  }
-  updateReviewProgress();
-}
-function updateReviewProgress(){
-  for(const [k,tag] of [['a','8a'],['b','8b'],['c','8c']]){
-    const pct=reviewPct(k), v=watched[k];
-    $('progress-'+tag).style.width=pct+'%';
-    $('progress-wrap-'+tag).setAttribute('aria-valuenow',String(pct));
-    $('watch-'+tag).textContent=v.duration?`${pct}% of video watched (need ${REQUIRED_PERCENT}%)${pct>=REQUIRED_PERCENT?' ✓':''}`:'Waiting for playback tracking (play the video above).';
-    const n=wordCount($('reflection-'+tag).value);
-    $('count-'+tag).textContent=`${n} / ${MIN_WORDS} words${n>=MIN_WORDS?' ✓':''}`;
-  }
-  const ok=reviewPct('a')>=REQUIRED_PERCENT&&reviewPct('b')>=REQUIRED_PERCENT&&reviewPct('c')>=REQUIRED_PERCENT && wordCount($('reflection-8a').value)>=MIN_WORDS && wordCount($('reflection-8b').value)>=MIN_WORDS && wordCount($('reflection-8c').value)>=MIN_WORDS;
-  $('review-submit').disabled=reviewing || busy || !ok || Boolean(reviewToken);
-  $('start-button').disabled=busy || !validReviewIdentity();
-}
-function samplePlayback(k){
-  const v=watched[k];if(!v.player)return;
-  let cur,duration,state;
-  try{cur=v.player.getCurrentTime();duration=v.player.getDuration();state=v.player.getPlayerState();}catch(e){return;}
-  if(!Number.isFinite(cur)||cur<0)return;
-  if(duration>0 && Number.isFinite(duration))v.duration=Math.floor(duration);
-  const now=Date.now(), dt=(now-(v.lastWall||now))/1000, diff=cur-(v.lastTime??cur);
-  // Reject seeks and high playback rates; allow timing jitter.
-  if(state===1 && v.lastTime!==null && diff>0 && diff<=Math.max(0.35,dt*1.3+0.2)&&diff<2){
-    for(let s=Math.floor(v.lastTime);s<Math.floor(cur);s++)if(s>=0 && s<v.duration)v.seconds.add(s);
-  }
-  v.lastTime=cur;v.lastWall=now;
-  updateReviewProgress();
-}
-function restoreReview(){
-  try{const data=JSON.parse(localStorage.getItem(REVIEW_KEY)||'null');
-    if(data && data.token && data.name && data.block){
-      reviewToken=data.token;reviewName=data.name;reviewBlock=data.block;
-      $('name').value=reviewName;$('block').value=reviewBlock;
-      $('unlock-done').hidden=false;
-      $('review-message').textContent='Your previous video reflections have been saved for this student and class block.';
-    }
-  }catch(e){}
-}
-function validReviewIdentity(){return Boolean(reviewToken) && reviewName.trim().toLowerCase()===$('name').value.trim().toLowerCase() && reviewBlock===$('block').value;}
-function onYouTubeIframeAPIReady(){
-  for(const [key,id,video] of [['a','player8a','zrKdz93WlVk'],['b','player8b','pv3Kj0UjiLE'],['c','player8c','ebIpkw3XapE']]){
-    watched[key].player=new YT.Player(id,{width:'100%',height:'420',videoId:video,playerVars:{playsinline:1,rel:0,origin:location.origin},
-       events:{onReady:()=>updateReviewProgress(),onStateChange:()=>{watched[key].lastTime=null;watched[key].lastWall=null;}}});
-  }
-  setInterval(()=>{samplePlayback('a');samplePlayback('b');samplePlayback('c');},500);
-  setInterval(saveCoverage,5000);
-}
-window.onYouTubeIframeAPIReady=onYouTubeIframeAPIReady;
-const youtubeApi=document.createElement('script');youtubeApi.src='https://www.youtube.com/iframe_api';youtubeApi.async=true;document.head.appendChild(youtubeApi);
-restoreReview();loadCoverage();
-['8a','8b','8c'].forEach(tag=>$('reflection-'+tag).addEventListener('input',updateReviewProgress));
-['name','block'].forEach(tag=>$(tag).addEventListener('input',handleIdentityChange));
-async function pollReview(token){
-  for(let i=0;i<16;i++){
-    await sleep(i===0?1100:900);
-    const data=await jsonp('reviewStatus',{reviewToken:token});
-    if(data.ok && data.saved)return data;
-  }
-  throw new Error('The review was not confirmed in the teacher sheet. Please try saving again.');
-}
-async function saveReview(){
-  if(reviewing||busy||reviewToken)return;
-  const name=$('name').value.trim().replace(/\s+/g,' '), block=$('block').value;
-  if(name.split(' ').length<2||!block){$('review-message').textContent='Enter your first and last name and choose your Biology block first.';return;}
-  if(reviewPct('a')<REQUIRED_PERCENT||reviewPct('b')<REQUIRED_PERCENT||reviewPct('c')<REQUIRED_PERCENT||wordCount($('reflection-8a').value)<MIN_WORDS||wordCount($('reflection-8b').value)<MIN_WORDS||wordCount($('reflection-8c').value)<MIN_WORDS){$('review-message').textContent='Finish all three videos and write at least 25 words for each.';return;}
-  reviewing=true;updateReviewProgress();$('review-message').textContent='Saving your three reflections to Mrs. Abney’s Google Sheet…';
-  const token=makeUuid();
-  try{
-    post({action:'review',reviewToken:token,name,block,reflectionA:$('reflection-8a').value,reflectionB:$('reflection-8b').value,reflectionC:$('reflection-8c').value,watchA:reviewPct('a'),watchB:reviewPct('b'),watchC:reviewPct('c')});
-    await pollReview(token);
-    reviewToken=token;reviewName=name;reviewBlock=block;
-    localStorage.setItem(REVIEW_KEY,JSON.stringify({token,name,block}));
-    $('unlock-done').hidden=false;
-    $('review-message').textContent='Saved! You may begin the 15-minute practice quiz.';
-  }catch(e){$('review-message').textContent='Unable to confirm your review: '+e.message;}
-  finally{reviewing=false;updateReviewProgress();}
-}
-$('review-submit').addEventListener('click',saveReview);
-updateReviewProgress();
-
 async function pollFor(targetNumber){
   let lastError='';
   for(let i=0;i<24;i++){
@@ -325,29 +166,23 @@ async function startQuiz(e){
   const name=$('name').value.trim(),block=$('block').value,makeup=$('makeup').value.trim();
   if(name.split(/\s+/).length<2){showError('Please enter your first AND last name.');return}
   if(!block){showError('Please select 2nd Block or 4th Block.');return}
-  if(!validReviewIdentity()){showError('First save all three required video reflections under your name and class block.');return}
   busy=true;show('loading');$('loading-message').textContent='Starting your private timed attempt…';
   attemptId=makeUuid();localStorage.setItem(KEY,attemptId);
   try{
-    post({action:'start',attemptId,name,block,makeup,reviewToken});
+    post({action:'start',attemptId,name,block,makeup});
     const data=await pollFor(0);
     if(data.done)showResults(data);else renderQuestion(data.question);
   }catch(e){localStorage.removeItem(KEY);attemptId='';busy=false;showError(e.message)}
 }
-function reset(){stopTimers();localStorage.removeItem(KEY);attemptId='';current=null;busy=false;show('entry');updateReviewProgress();}
+function reset(){stopTimers();localStorage.removeItem(KEY);attemptId='';current=null;busy=false;show('entry');}
 $('start-form').addEventListener('submit',startQuiz);$('retry').addEventListener('click',reset);$('reset').addEventListener('click',()=>{if(attemptId)location.reload();else reset()});
 (async()=>{
   if(!ENDPOINT.startsWith('https://script.google.com/macros/s/')){
     $('window-note').textContent='Teacher setup not finished yet. The Google Apps Script link needs to be connected.';
     $('start-button').disabled=true;return;
   }
-  try{const s=await jsonp('status');$('window-note').textContent=s.open?`Practice quiz is OPEN. Regular access: ${s.openDate} through ${s.closeDate}, Eastern Time.`:`Regular quiz window: ${s.openDate}–${s.closeDate} (Eastern). Outside these dates, use your teacher's makeup code.`}
+  try{const s=await jsonp('status');$('start-button').disabled=false;$('window-note').textContent=s.open?`Practice quiz is OPEN. Regular access: ${s.openDate} through ${s.closeDate}, Eastern Time.`:`Regular quiz window: ${s.openDate}–${s.closeDate} (Eastern). Outside these dates, use your teacher's makeup code.`}
   catch(e){$('window-note').textContent='The quiz connection is not ready: '+e.message;$('start-button').disabled=true;}
-  if(reviewToken){
-    try{const r=await jsonp('reviewStatus',{reviewToken});if(!r.ok||!r.saved)throw new Error('Review not saved');}
-    catch(e){reviewToken='';localStorage.removeItem(REVIEW_KEY);$('unlock-done').hidden=true;$('review-message').textContent='Please complete and save all three video reflections before starting.';}
-  }
-  updateReviewProgress();
   const saved=localStorage.getItem(KEY);
   if(saved){attemptId=saved;busy=true;show('loading');$('loading-message').textContent='Restoring your current attempt…';
     try{const data=await jsonp('resume',{attemptId});if(!data.ok)throw new Error(data.error);if(data.done)showResults(data);else renderQuestion(data.question)}
